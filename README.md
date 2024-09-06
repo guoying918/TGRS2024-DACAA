@@ -3,7 +3,7 @@
 Code for the paper: [Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classificatio](https://ieeexplore.ieee.org/document/10606525).
 
 <p align='center'>
-  <img src='figure/DACAA.png' width="800px">
+  <img src='Figures/DA-CAA.png' width="800px">
 </p>
 
 ## Abstract:
