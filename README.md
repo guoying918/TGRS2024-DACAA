@@ -1,6 +1,6 @@
 # Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classification
 
-Code for the paper: [Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classificatio](https://ieeexplore.ieee.org/document/10606525).
+Code for the paper: [Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/10606525).
 
 <p align='center'>
   <img src='Figures/DA-CAA.png' width="800px">
@@ -34,6 +34,11 @@ torch: 1.13.0
 
 Python: 3.9
 
+## Datasets
+
+```
+
+```
 
 Thank you for your interest!
 
