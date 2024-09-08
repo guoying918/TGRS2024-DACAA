@@ -1,4 +1,4 @@
-# Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classification
+# Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classification【TGRS2024】
 
 Code for the paper: [Distribution-Aware and Class-Adaptive Aggregation for Few-Shot Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/10606525).
 
@@ -37,9 +37,20 @@ Python: 3.9
 ## Datasets
 
 ```
-
+├── Patch9_TRIAN_META_DATA_imdb_ocbs.pickle
+├── test_ocbs
+│   ├── PaviaU_data.mat
+│   ├── PaviaU_gt.mat
+└── train_ocbs
+    ├── Botswana_data.mat
+    ├── Botswana_gt.mat
+    ├── Chikusei_data.mat
+    ├── Chikusei_gt.mat
+    ├── KSC_data.mat
+    └── KSC_gt.mat
 ```
 
+coming soon....
 Thank you for your interest!
 
 Concact: yingguo@mail.nwpu.edu.cn
