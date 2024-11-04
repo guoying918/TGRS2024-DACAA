@@ -58,7 +58,7 @@ Python: 3.9
 
 ## Acknowledgements
 
-This project would not have been possible without relying on some awesome repos: DCFSL(https://github.com/Li-ZK/DCFSL-2021), CMFSL(https://github.com/B-Xi/TIP_2022_CMFSL) and VAE(https://github.com/AntixK/PyTorch-VAE). We thank the original authors for their excellent work.
+This project would not have been possible without relying on some awesome repos: [DCFSL](https://github.com/Li-ZK/DCFSL-2021), [CMFSL](https://github.com/B-Xi/TIP_2022_CMFSL) and [VAE](https://github.com/AntixK/PyTorch-VAE). We thank the original authors for their excellent work.
 
 Licensing
 --
