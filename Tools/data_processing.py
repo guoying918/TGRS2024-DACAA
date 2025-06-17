@@ -92,7 +92,7 @@ def get_train_test_loader(Data_Band_Scaler, GroundTruth, class_num, shot_num_per
     del train_dataset
 
     test_dataset = utils.matcifar(imdb, train=False, d=3, medicinal=0)
-    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=128, shuffle=True, num_workers=10)
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=128, shuffle=False, num_workers=10)
     del test_dataset
     del imdb
 
