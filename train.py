@@ -429,7 +429,13 @@ for iDataSet in range(nDataSet):
                 flag = 0
     training_time[iDataSet] = train_end - train_start
     test_time[iDataSet] = test_end - train_end
-
+    
+    latest_G, latest_RandPerm, latest_Row, latest_Column, latest_nTrain = G, RandPerm, Row, Column, nTrain
+    for i in range(len(predict)):  # predict ndarray <class 'tuple'>: (9729,)
+        latest_G[latest_Row[latest_RandPerm[latest_nTrain + i]]][latest_Column[latest_RandPerm[latest_nTrain + i]]] = \
+            predict[i] + 1
+    sio.savemat('./classificationMap/pred_map_latest' + '_' + str(iDataSet) + "iter_" + repr(int(OA * 10000)) + '.mat', {'latest_G': latest_G})
+    
     if test_accuracy > best_acc_all:
         best_predict_all = predict
         best_G,best_RandPerm,best_Row, best_Column,best_nTrain = G, RandPerm, Row, Column, nTrain
